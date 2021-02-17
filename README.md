@@ -1,15 +1,15 @@
 # loopback-component-passport
 
-**⚠️ LoopBack 3 is in Maintenance LTS mode, only critical bugs and critical
-security fixes will be provided. (See
-[Module Long Term Support Policy](#module-long-term-support-policy) below.)**
-
-We urge all LoopBack 3 users to migrate their applications to LoopBack 4 as
-soon as possible. Refer to our
-[Migration Guide](https://loopback.io/doc/en/lb4/migration-overview.html)
-for more information on how to upgrade.
-
 ## Overview
+
+** Support of Realms Added **
+
+You can pass and your realm in options object. For eg :
+
+`options = {
+ userRealm: <name-of-your-realm>,
+ profileToUser: mapper ...
+}` 
 
 The module provides integration between [LoopBack](http://loopback.io) and
 [Passport](http://passportjs.org) to support third-party login and account

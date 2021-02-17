@@ -1,6 +1,6 @@
 {
-  "name": "loopback-component-passport",
-  "description": "LoopBack passport integration to support third party logins and account linking",
+  "name": "@7isys/loopback-component-passport",
+  "description": "LoopBack passport integration to support third party logins and account linking with support for realms.",
   "engines": {
     "node": ">=8.9"
   },
@@ -9,22 +9,23 @@
     "LoopBack",
     "social",
     "login",
-    "security"
+    "security",
+    "realms"
   ],
-  "homepage": "https://github.com/strongloop/loopback-component-passport",
+  "homepage": "https://github.com/ali-nahid/loopback-component-passport",
   "version": "3.12.0",
   "maintainers": [
     {
-      "name": "Raymond Feng",
-      "email": "raymond@strongloop.com"
+      "name": "Nahid Ali",
+      "email": "ali.nahid@7isys.com"
     }
   ],
   "bugs": {
-    "url": "https://github.com/strongloop/loopback-component-passport/issues"
+    "url": "https://github.com/ali-nahid/loopback-component-passport/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/strongloop/loopback-component-passport.git"
+    "url": "git://github.com/ali-nahid/loopback-component-passport.git"
   },
   "dependencies": {
     "passport": "^0.4.0",
