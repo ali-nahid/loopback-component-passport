@@ -6,13 +6,10 @@
 
 You can pass and your realm in options object. For eg :
 
-`
- options = {
+`options = {
   userRealm: <name-of-your-realm>,
   profileToUser: mapper ...
-}
-
-` 
+}` 
 
 The module provides integration between [LoopBack](http://loopback.io) and
 [Passport](http://passportjs.org) to support third-party login and account
