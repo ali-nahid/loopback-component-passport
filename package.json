@@ -13,13 +13,11 @@
     "realms"
   ],
   "homepage": "https://github.com/ali-nahid/loopback-component-passport",
-  "version": "3.12.0",
-  "maintainers": [
-    {
-      "name": "Nahid Ali",
-      "email": "ali.nahid@7isys.com"
-    }
-  ],
+  "version": "3.12.1",
+  "maintainers": [{
+    "name": "Nahid Ali",
+    "email": "ali.nahid@7isys.com"
+  }],
   "bugs": {
     "url": "https://github.com/ali-nahid/loopback-component-passport/issues"
   },
