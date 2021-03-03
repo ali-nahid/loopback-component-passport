@@ -11,6 +11,25 @@ You can pass and your realm in options object. For eg :
   profileToUser: mapper ...
 }` 
 
+**Support of Promises Added**
+
+You can call the function using Async/Await for can user Resolve promises to get output. 
+
+`const [user, identity, token] = await UserIdentity.login(....)`
+
+The callback method also changes with the following update.
+
+Previously
+
+`UserIdentity.login(...., function(err, user, identity, token) {
+});`
+
+Now
+
+`UserIdentity.login(...., function(err, [user, identity, token]) {
+});`
+
+
 The module provides integration between [LoopBack](http://loopback.io) and
 [Passport](http://passportjs.org) to support third-party login and account
 linking for LoopBack applications.
