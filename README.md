@@ -2,13 +2,13 @@
 
 ## Overview
 
-** Support of Realms Added **
+**Support of Realms Added**
 
 You can pass and your realm in options object. For eg :
 
 `options = {
- userRealm: <name-of-your-realm>,
- profileToUser: mapper ...
+  userRealm: <name-of-your-realm>,
+  profileToUser: mapper ...
 }` 
 
 The module provides integration between [LoopBack](http://loopback.io) and
